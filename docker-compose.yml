@@ -1,0 +1,12 @@
+version: "3"
+services:
+  redis-server:
+  image: 'redis'
+  node-shubham:
+    build: 
+      context: ./
+      dockerfile: Dockerfile	
+    ports:
+      - "4001:8081"
+
+
