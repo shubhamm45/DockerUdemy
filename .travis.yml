@@ -6,4 +6,4 @@ before_install:
 
 
 script:
-  - docker run shubham/dockerudemy npm test -- -- coverage
+  - docker run shubham/dockerudemy npm run test -- -- coverage
